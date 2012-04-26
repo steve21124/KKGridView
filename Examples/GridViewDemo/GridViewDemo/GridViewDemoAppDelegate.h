@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class GridViewDemoViewController;
+//@class GridViewDemoViewController;
+@class Demo1ViewController;
 
 @interface GridViewDemoAppDelegate : NSObject <UIApplicationDelegate>
 @property (nonatomic, strong) IBOutlet UIWindow *window;
-@property (nonatomic, strong) IBOutlet GridViewDemoViewController *viewController;
+@property (nonatomic, strong) IBOutlet Demo1ViewController *viewController;
 @end

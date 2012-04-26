@@ -23,9 +23,24 @@
 		3330C714153536D90054B29A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3330C713153536D90054B29A /* AssetsLibrary.framework */; };
 		397E3D281406642500C3DEA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397E3D271406642500C3DEA3 /* QuartzCore.framework */; };
 		5674016D14AACDF300A838F8 /* KKGridView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5674016C14AACDF300A838F8 /* KKGridView.bundle */; };
+		803C21DA1548E11D003A3D9C /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C21D81548E11D003A3D9C /* Demo1ViewController.m */; };
+		803C21DB1548E11D003A3D9C /* Demo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803C21D91548E11D003A3D9C /* Demo1ViewController.xib */; };
+		803C21E31548E7B2003A3D9C /* 1_mango.png in Resources */ = {isa = PBXBuildFile; fileRef = 803C21E01548E7B2003A3D9C /* 1_mango.png */; };
+		803C21E41548E7B2003A3D9C /* 2_pear.png in Resources */ = {isa = PBXBuildFile; fileRef = 803C21E11548E7B2003A3D9C /* 2_pear.png */; };
+		803C21E51548E7B2003A3D9C /* 3_banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 803C21E21548E7B2003A3D9C /* 3_banana.png */; };
 		FC35C029149C70F100A56750 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC35C028149C70F100A56750 /* Default@2x.png */; };
 		FC35C02B149C710000A56750 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC35C02A149C710000A56750 /* Default-Landscape@2x.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		803C21D41548E0D4003A3D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 803C21CD1548E0D4003A3D9C /* KKGridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A61BE0F13DCAF1F00AB4243;
+			remoteInfo = KKGridView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A530A2913DE962700E6C60B /* GridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +64,13 @@
 		3330C713153536D90054B29A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		397E3D271406642500C3DEA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5674016C14AACDF300A838F8 /* KKGridView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = KKGridView.bundle; path = ../../../../KKGridView/KKGridView.bundle; sourceTree = "<group>"; };
+		803C21CD1548E0D4003A3D9C /* KKGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KKGridView.xcodeproj; path = ../../KKGridView.xcodeproj; sourceTree = "<group>"; };
+		803C21D71548E11D003A3D9C /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		803C21D81548E11D003A3D9C /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		803C21D91548E11D003A3D9C /* Demo1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo1ViewController.xib; sourceTree = "<group>"; };
+		803C21E01548E7B2003A3D9C /* 1_mango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_mango.png; sourceTree = "<group>"; };
+		803C21E11548E7B2003A3D9C /* 2_pear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_pear.png; sourceTree = "<group>"; };
+		803C21E21548E7B2003A3D9C /* 3_banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_banana.png; sourceTree = "<group>"; };
 		FC35C028149C70F100A56750 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		FC35C02A149C710000A56750 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -92,6 +114,7 @@
 		1A530A2C13DE962700E6C60B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				803C21CD1548E0D4003A3D9C /* KKGridView.xcodeproj */,
 				1A72A9791453B450002546F8 /* libKKGridView.a */,
 				3330C713153536D90054B29A /* AssetsLibrary.framework */,
 				1A530A3113DE962700E6C60B /* CoreGraphics.framework */,
@@ -113,6 +136,9 @@
 				1A530A3F13DE962700E6C60B /* MainWindow.xib */,
 				1A75378C148F070D00B8A777 /* Resources */,
 				1A530A3413DE962700E6C60B /* Supporting Files */,
+				803C21D71548E11D003A3D9C /* Demo1ViewController.h */,
+				803C21D81548E11D003A3D9C /* Demo1ViewController.m */,
+				803C21D91548E11D003A3D9C /* Demo1ViewController.xib */,
 			);
 			path = GridViewDemo;
 			sourceTree = "<group>";
@@ -131,6 +157,9 @@
 		1A75378C148F070D00B8A777 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				803C21E01548E7B2003A3D9C /* 1_mango.png */,
+				803C21E11548E7B2003A3D9C /* 2_pear.png */,
+				803C21E21548E7B2003A3D9C /* 3_banana.png */,
 				5674016C14AACDF300A838F8 /* KKGridView.bundle */,
 				FC35C02A149C710000A56750 /* Default-Landscape@2x.png */,
 				FC35C028149C70F100A56750 /* Default@2x.png */,
@@ -139,6 +168,14 @@
 				1A75378E148F070D00B8A777 /* KKGridViewIcon@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		803C21CE1548E0D4003A3D9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803C21D51548E0D4003A3D9C /* libKKGridView.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,12 +217,28 @@
 			mainGroup = 1A530A1E13DE962700E6C60B;
 			productRefGroup = 1A530A2A13DE962700E6C60B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 803C21CE1548E0D4003A3D9C /* Products */;
+					ProjectRef = 803C21CD1548E0D4003A3D9C /* KKGridView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1A530A2813DE962700E6C60B /* GridViewDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		803C21D51548E0D4003A3D9C /* libKKGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKKGridView.a;
+			remoteRef = 803C21D41548E0D4003A3D9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1A530A2713DE962700E6C60B /* Resources */ = {
@@ -201,6 +254,10 @@
 				FC35C029149C70F100A56750 /* Default@2x.png in Resources */,
 				FC35C02B149C710000A56750 /* Default-Landscape@2x.png in Resources */,
 				5674016D14AACDF300A838F8 /* KKGridView.bundle in Resources */,
+				803C21DB1548E11D003A3D9C /* Demo1ViewController.xib in Resources */,
+				803C21E31548E7B2003A3D9C /* 1_mango.png in Resources */,
+				803C21E41548E7B2003A3D9C /* 2_pear.png in Resources */,
+				803C21E51548E7B2003A3D9C /* 3_banana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +271,7 @@
 				1A530A3A13DE962700E6C60B /* main.m in Sources */,
 				1A530A3E13DE962700E6C60B /* GridViewDemoAppDelegate.m in Sources */,
 				1A530A4413DE962700E6C60B /* GridViewDemoViewController.m in Sources */,
+				803C21DA1548E11D003A3D9C /* Demo1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

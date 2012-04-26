@@ -7,7 +7,7 @@
 //
 
 #import "GridViewDemoAppDelegate.h"
-#import "GridViewDemoViewController.h"
+#import "Demo1ViewController.h"
 
 @implementation GridViewDemoAppDelegate
 
