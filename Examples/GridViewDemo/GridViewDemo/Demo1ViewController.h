@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <KKGridView/KKGridViewController.h>
 
-@interface Demo1ViewController : KKGridViewController
+@interface Demo1ViewController : KKGridViewController{
+    NSInteger selectedItem;
+    UIImagePickerController *imagePicker;
+}
+@property (nonatomic, readwrite) NSInteger selectedItem;
+@property (nonatomic, retain) UIImagePickerController *imagePicker;
 
 @end
